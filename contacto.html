@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty/style.css">
+</head>
+<body>
+    
+    <header>
+
+        <div class="content">
+            <div class="menu container">
+                <a href="index.html" class="logo">logo</a>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="IMG/rhino-logo-template-vector.jpg" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="detalles.html">Detalles</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="contenedor-contact">
+        <div class="info-contact">
+            <h2>Formulario de Contacto</h2>
+
+            <br>
+            <br>
+            <p>Para poder contactarnos, necesitamos que llenes este formulario</p>
+            <br>
+            
+
+    <form action="submit.php" method="POST">
+    <div>
+    <label for="nombre">Nombre:</label>
+    <br>
+    <input type="text" id="nombre" name="nombre" required>
+  </div>
+  <div>
+    <label for="email">Correo Electrónico:</label>
+    <br>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+    <br>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+  </div>
+  <button type="submit">Enviar</button>
+                
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>

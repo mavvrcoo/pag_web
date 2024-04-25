@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FCF3CF ;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-form form .campo, textarea{
+    width: 20%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+
+
+.content {
+    min-height: 80px;
+    background-color: #784212;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #784212;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #fff;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 50px;
+    margin-right: 500px;
+}
+
+.menu label{
+    cursor: pointer
+}
+
+h1 {
+    margin: 80px 0 0 350px;
+    font-size: 60px;
+}
+
+h3 {
+    margin: 50px 0 0 40px;
+    font-size: 30px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: left;
+}
+
+.txt{
+    margin-left: 50px;
+    margin: 50px ;
+}
+
+.container-detalle {
+    display: flex;
+    justify-content: left;
+    margin-left: 12px;
+}
+
+.imagen {
+    width: 900px;
+    height: 600px;
+}
+
+.img2 {
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.img3 {
+    width: 800px;
+    height: 250px;
+} 
+
+.cont-ellos{
+    display: flex;
+    justify-content: left;
+    margin-right: 50px;
+}
+
+.img4 {
+    width: 600px;
+    height: 450px;
+    margin-left: 50px;
+}
+
+.img5 {
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.tabla {
+    width: 20px;
+    height: 20px;
+    margin-left: 800px;
+    font-size: 17px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #784212;
+    color: #FCF3CF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.btn2{
+    display: inline-block;
+    background-color: #784212;
+    color: #FCF3CF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.btn3{
+    display: inline-block;
+    background-color: #784212;
+    color: #FCF3CF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1 span{
+    background-color: #784212;
+    padding: 0 15px;
+}
+
+.img-gallery .box{
+    width: 25%;
+    position: relative;
+    height: 250px;
+    margin-inline-start: 20px;
+    box-shadow: 0px, 0px, 3px, 0px rgba(0, 14, 21, 0.8);
+    justify-content: right;
+
+}
+
+.img-gallery img{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #784212;
+    padding: 16px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px;
+  }
+  
+  .img-container {
+    width: 50%; /* Ajusta el tamaño de la miniatura */
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    
+  }
+  
+  .img-container img {
+    width: 35%;
+    transition: transform 0.3s;
+    width: 350px;
+    position: relative ;
+    margin-inline-start: 35px;
+    box-shadow: 0px, 0px, 3px, 0px rgba(0, 14, 21, 0.8);
+  }
+
+  .img-container img:hover {
+    transform: scale(1.2); 
+  }
+
+
+.contenedor-contact {
+    font-size: 30px;
+}
+
+.info-contact{
+    font-size: 20px;
+}
